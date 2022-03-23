@@ -1,0 +1,81 @@
+#hero__main__page {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url(../../../assets/images/main-page/hero/hero_cover_2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: top;
+}
+
+.hero__text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 45%;
+    color: white;
+    margin-top: auto;
+    margin-bottom: 4%;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 89px;
+    line-height: 100px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 5%;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    padding-left: 5%;
+}
+
+p {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.hero__button {
+    width: 224px;
+    height: 67px;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.hero__button__text {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.hero__button:hover {
+    background: #FF0000;
+    border: 1px solid #FF0000;
+}
