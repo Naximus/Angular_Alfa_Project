@@ -23,29 +23,40 @@ img {
     transition: 0.3s;
 }
 
-.trening_1 {
+.personal__trening {
     grid-area: one;
     max-height: 722px;
 }
 
-.trening_2 {
+.group__trening {
     grid-area: two;
 }
 
-.trening_3 {
+.sport__trening {
     grid-area: three;
     max-height: 722px;
 }
 
-.trening_4 {
+.kids__trening {
     grid-area: four;
 }
 
-.trening_1_info_holder {
+.personal__trening__info__holder {
+    display: flex;
     position: absolute;
-    top: 40%;
-    justify-self: center;
-    padding: 1em;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.group__trening__info__holder {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 h4 {
@@ -54,6 +65,7 @@ h4 {
     font-size: 36px;
     text-align: center;
     color: #fff;
+    text-shadow: 0px 0px 10px #000000;
 }
 
 @media screen and (min-width: 660px) {
