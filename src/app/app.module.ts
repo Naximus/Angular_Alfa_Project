@@ -8,6 +8,7 @@ import { MainPageContentComponent } from './main-page-content/main-page-content.
 import { FooterComponent } from './footer/footer.component';
 import { MainPageHeroComponent } from './main-page-content/main-page-hero/main-page-hero.component';
 import { MainPageSection1Component } from './main-page-content/main-page-section1/main-page-section1.component';
+import { MainPageSection2Component } from './main-page-content/main-page-section2/main-page-section2.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MainPageSection1Component } from './main-page-content/main-page-section
     MainPageContentComponent,
     FooterComponent,
     MainPageHeroComponent,
-    MainPageSection1Component
+    MainPageSection1Component,
+    MainPageSection2Component
   ],
   imports: [
     BrowserModule,

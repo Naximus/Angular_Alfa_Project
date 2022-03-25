@@ -29,7 +29,7 @@ ul {
 }
 
 .menu a {
-    color: #fff;
+    color: var(--white);
     text-decoration: none;
     font-weight: 400;
     text-transform: uppercase;
@@ -37,5 +37,5 @@ ul {
 }
 
 .menu a:hover {
-    color: #FF0000;
+    color: var(--red);
 }

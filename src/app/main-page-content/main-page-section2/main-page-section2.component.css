@@ -1,0 +1,149 @@
+img {
+    width: 100%;
+}
+
+#coaches {
+    position: relative;
+    display: grid;
+    gap: 2rem;
+    grid-auto-columns: 1fr;
+    grid-template-areas: "one two" "three four";
+    padding-block: 2rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
+    color: var(--white);
+}
+
+.stoyan {
+    grid-area: one;
+}
+
+.steli {
+    grid-area: two;
+}
+
+.vili {
+    grid-area: three;
+}
+
+.niki {
+    grid-area: four;
+}
+
+.coach__card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0.5rem;
+    max-width: 544px;
+    background-color: var(--gray-light-card);
+}
+
+.coach__image {
+    width: 46%;
+}
+
+.coach__info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.coach__info h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: var(--wellow)
+}
+
+.coach__info h3 {
+    text-transform: uppercase;
+    font-size: 0.75em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.coach__info p {
+    font-size: 0.9em;
+    margin-top: 0;
+    opacity: 0.7;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.coach__info ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+}
+
+.coach__info ul li {
+    width: 50px;
+    height: 50px;
+    background-color: var(--gray-light-social);
+}
+
+@media screen and (max-width: 925px) {
+    .coach__card {
+        flex-direction: column;
+    }
+    .stoyan img {
+        content: url(../../../assets/images/main-page/section_2/stoian_dimitrov_landscape.jpg);
+    }
+    .steli img {
+        content: url(../../../assets/images/main-page/section_2/stiliana_galabova_landscape.jpg);
+    }
+    .vili img {
+        content: url(../../../assets/images/main-page/section_2/velina_nencheva_landscape.jpg);
+    }
+    .niki img {
+        content: url(../../../assets/images/main-page/section_2/nikolai_landscape.jpg);
+    }
+    .coach__image {
+        width: 100%;
+    }
+    .coach__info {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    #coaches {
+        grid-template-areas: "one" "two" "three" "four";
+    }
+    .coach__card {
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .stoyan img {
+        content: url(../../../assets/images/main-page/section_2/stoian_dimitrov_landscape.jpg);
+    }
+    .steli img {
+        content: url(../../../assets/images/main-page/section_2/stiliana_galabova_landscape.jpg);
+    }
+    .vili img {
+        content: url(../../../assets/images/main-page/section_2/velina_nencheva_landscape.jpg);
+    }
+    .niki img {
+        content: url(../../../assets/images/main-page/section_2/nikolai_landscape.jpg);
+    }
+    .coach__image {
+        width: 100%;
+    }
+    .coach__info {
+        width: 100%;
+    }
+}

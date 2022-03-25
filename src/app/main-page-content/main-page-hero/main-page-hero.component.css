@@ -15,7 +15,7 @@
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.6);
     max-width: 45%;
-    color: white;
+    color: var(--white);
     margin-top: auto;
     margin-bottom: 4%;
 }
@@ -52,9 +52,9 @@ p {
 .hero__button {
     width: 224px;
     height: 67px;
-    color: #fff;
+    color: var(--white);
     text-transform: uppercase;
-    border: 1px solid #FFFFFF;
+    border: 1px solid var(--white);
     box-sizing: border-box;
     text-decoration: none;
     border-radius: 10px;
@@ -76,6 +76,6 @@ p {
 }
 
 .hero__button:hover {
-    background: #FF0000;
-    border: 1px solid #FF0000;
+    background: var(--red);
+    border: 1px solid var(--red);
 }
