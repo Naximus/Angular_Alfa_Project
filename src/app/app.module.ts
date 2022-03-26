@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MainPageHeroComponent } from './main-page-content/main-page-hero/main-page-hero.component';
 import { MainPageSection1Component } from './main-page-content/main-page-section1/main-page-section1.component';
 import { MainPageSection2Component } from './main-page-content/main-page-section2/main-page-section2.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MainPageSection2Component } from './main-page-content/main-page-section
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
