@@ -70,3 +70,23 @@ p {
     background: var(--red);
     border: 1px solid var(--red);
 }
+
+
+/* @media screen and (min-width: 660px) {
+
+} */
+
+@media screen and (max-width: 1000px) {
+    .hero__text {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.6);
+        max-width: 90%;
+        color: var(--white);
+        margin-top: auto;
+        margin-bottom: 2%;
+        padding: 2rem;
+        gap: 1rem;
+    }
+}

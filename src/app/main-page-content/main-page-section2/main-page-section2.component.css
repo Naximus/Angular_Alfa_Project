@@ -68,7 +68,6 @@
     .headline {
         display: flex;
         flex-direction: column;
-        gap: 1rem;
     }
 
     .coach__info h2 {

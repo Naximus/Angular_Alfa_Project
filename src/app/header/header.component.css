@@ -3,6 +3,11 @@ ul {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .menu {
     display: flex;
     flex-direction: row;
@@ -28,7 +33,7 @@ ul {
     height: 100%;
 }
 
-.menu a {
+li {
     color: var(--white);
     text-decoration: none;
     font-weight: 400;
@@ -36,6 +41,12 @@ ul {
     transition: 0.3s;
 }
 
-.menu a:hover {
+
+/*
+li a:hover {
+    color: var(--red);
+} */
+
+.active-link {
     color: var(--red);
 }
