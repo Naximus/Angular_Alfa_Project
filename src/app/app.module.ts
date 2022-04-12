@@ -27,6 +27,8 @@ import { TabataPageComponent } from './trainings-page/group-trening-page/tabata-
 import { DancePageComponent } from './trainings-page/group-trening-page/dance-page/dance-page.component';
 import { UserPageComponent } from './profile-page/user-page/user-page.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { InfoUserListComponent } from './profile-page/info-user-list/info-user-list/info-user-list.component';
+import { InfoUserItemsComponent } from './profile-page/info-user-list/info-user-list/info-user-items/info-user-items/info-user-items.component';
 // import { MaterialModule } from 'src/material/material.module';
 
 @NgModule({
@@ -53,7 +55,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     PumpPageComponent,
     TabataPageComponent,
     DancePageComponent,
-    UserPageComponent
+    UserPageComponent,
+    InfoUserListComponent,
+    InfoUserItemsComponent
   ],
   imports: [
     BrowserModule,
