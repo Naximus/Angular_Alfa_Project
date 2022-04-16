@@ -1,3 +1,12 @@
+### Рцепти и списък за пазарени
+! [лого] (https://github.com/Naximus/Angular_Alfa_Project/blob/master/src/assets/imagaes/main/Asset%201%404x.png)
+
+## Може да се добавят рецепти както и да се премахват такива.
+## От въведените рецепти може да се извеждат, съставки в лист за пазаруване.
+## За да може да се използва приложението се налага да се създадът user и pass които се запазват в Firebase.
+
+
+
 # NgCompleteGuideUpdate
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.
