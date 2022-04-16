@@ -10,11 +10,9 @@
 <nav class="navigation right">
     <ul class="menu right">
         <li *ngIf="isAuthenticated">
-            <a style="cursor: pointer;" (click)="onLogout()">Logout</a>
+            <a style="cursor: pointer;" (click)="onLogout()">Изход</a>
         </li>
-
         <li *ngIf="isAuthenticated"><a style="cursor: pointer;" (click)="onSaveData()">Запази рецепта</a></li>
         <li *ngIf="isAuthenticated"><a style="cursor: pointer;" (click)="onFetchData()">Покажи всички рецепти</a></li>
-
     </ul>
 </nav>

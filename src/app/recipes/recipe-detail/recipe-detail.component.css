@@ -1,0 +1,8 @@
+li {
+    list-style-type: none;
+}
+
+.col-xs-12 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
